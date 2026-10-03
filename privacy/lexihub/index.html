@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for LexiHub.">
+    <title>LexiHub Privacy Policy</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --ink: #25313d;
+            --muted: #5d6b78;
+            --paper: #ffffff;
+            --ground: #eef3f5;
+            --accent: #197c81;
+            --accent-soft: #dceded;
+            --rule: #d7e0e3;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--ground);
+            color: var(--ink);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            font-size: 16px;
+            line-height: 1.65;
+        }
+
+        main {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 48px 24px 64px;
+        }
+
+        article {
+            background: var(--paper);
+            border: 1px solid var(--rule);
+            border-radius: 8px;
+            padding: 40px;
+        }
+
+        h1,
+        h2 {
+            color: var(--ink);
+            line-height: 1.2;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        h2 {
+            border-bottom: 1px solid var(--rule);
+            font-size: 21px;
+            margin: 36px 0 14px;
+            padding-bottom: 9px;
+        }
+
+        p,
+        li {
+            max-width: 72ch;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        li + li {
+            margin-top: 8px;
+        }
+
+        a {
+            color: var(--accent);
+        }
+
+        .updated {
+            color: var(--muted);
+            margin: 8px 0 28px;
+        }
+
+        .summary {
+            background: var(--accent-soft);
+            border-left: 4px solid var(--accent);
+            margin: 0;
+            padding: 18px 20px;
+        }
+
+        .nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 36px;
+        }
+
+        .nav a {
+            border: 1px solid var(--accent);
+            border-radius: 6px;
+            padding: 8px 14px;
+            text-decoration: none;
+        }
+
+        .nav a:hover,
+        .nav a:focus-visible {
+            background: var(--accent);
+            color: #ffffff;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                padding: 20px 14px 36px;
+            }
+
+            article {
+                padding: 26px 20px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <article>
+            <h1>LexiHub Privacy Policy</h1>
+            <p class="updated">Last updated: October 3, 2026</p>
+
+            <p class="summary"><strong>Summary:</strong> LexiHub does not include advertising, analytics, or tracking SDKs. The app stores some information on your device so its features work. When you choose a feature that uses a network service, your device sends the information needed for that feature directly to that service.</p>
+
+            <h2>Scope</h2>
+            <p>This policy applies to the LexiHub iOS app. It does not apply to websites, Open WebUI servers, content sources, or other services you choose to use through the app. Those services have their own privacy practices.</p>
+
+            <h2>Information Stored on Your Device</h2>
+            <p>LexiHub stores information locally to provide its reading, chat, and settings features. Depending on how you use the app, this may include:</p>
+            <ul>
+                <li>Text entries you save in the text reader.</li>
+                <li>Open WebUI conversation history cached by the app.</li>
+                <li>Reading preferences, enabled tabs, and configured content sources.</li>
+                <li>An optional dictionary-service API key and related preferences.</li>
+            </ul>
+            <p>After a successful Open WebUI sign-in, the app stores the credentials needed to reconnect, such as the server address and session credential, in the iOS Keychain. The app clears these credentials and its locally cached Open WebUI conversations when you sign out.</p>
+
+            <h2>Information Sent When You Use Network Features</h2>
+            <p>LexiHub connects to network services only when you use features that require them. The information sent depends on the feature you select.</p>
+            <ul>
+                <li><strong>Open WebUI:</strong> If you configure an Open WebUI server, the app sends your sign-in information, requests, chat messages, and related conversation data to the server you choose. That server may store or process the information under its own policy.</li>
+                <li><strong>Content services:</strong> The app requests news, Wikipedia content, podcasts, video metadata or transcripts, and reading content from the relevant service or content source. These services may receive technical information that accompanies a network request, such as your IP address.</li>
+                <li><strong>Dictionary features:</strong> When you request word hints or use an optional study-list feature, the selected word or text needed for the lookup is sent to the dictionary provider. If you configure a provider API key, the app may send it to that provider to perform the requested action.</li>
+                <li><strong>External links:</strong> When you open a source link, video link, or other external link, your device leaves LexiHub and connects to that destination.</li>
+            </ul>
+
+            <h2>What We Do Not Use</h2>
+            <p>LexiHub does not include advertising identifiers, advertising SDKs, developer-operated analytics, or third-party crash-reporting SDKs. We do not sell personal information or use the app to track you across apps or websites.</p>
+
+            <h2>Retention and Your Choices</h2>
+            <p>You can delete saved text and locally cached conversations from within the app. You can sign out to remove stored Open WebUI credentials and cached conversations, and you can clear optional provider settings from the Settings screen. Data sent to a third-party service is subject to that service's retention and deletion practices.</p>
+
+            <h2>Security</h2>
+            <p>LexiHub uses the iOS Keychain for stored Open WebUI credentials. Other locally saved content and settings are stored in the app's local storage. Network security and data handling by external services are governed by those services. No method of storage or transmission is completely secure.</p>
+
+            <h2>Changes to This Policy</h2>
+            <p>We may update this policy when LexiHub or its data practices change. The current version and its update date will be posted on this page.</p>
+
+            <h2>Contact</h2>
+            <p>For privacy questions, contact <a href="mailto:support@kashir.xyz">support@kashir.xyz</a>.</p>
+
+            <nav class="nav" aria-label="Site navigation">
+                <a href="/">Back to Home</a>
+                <a href="/support/">Support</a>
+            </nav>
+        </article>
+    </main>
+</body>
+</html>
