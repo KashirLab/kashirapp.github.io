@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Entropy Studio</title>
+    <meta name="description" content="Privacy policy for the Kashir Cashu wallet.">
+    <title>Kashir Privacy Policy</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
@@ -79,55 +80,42 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Privacy Policy</h1>
-        <p><strong>Last updated:</strong> September 10, 2026</p>
+    <main class="container">
+        <h1>Kashir Privacy Policy</h1>
+        <p><strong>Last updated:</strong> November 26, 2026</p>
 
         <div class="summary">
-            <p><strong>Summary:</strong> Entropy Studio performs its calculations locally on your device. We do not collect, transmit, sell, or share your personal information or sensitive wallet material. The App does not require an account and does not use analytics, advertising, or tracking services.</p>
+            <p>Kashir is a self-custodial Cashu wallet. You can use it without creating a Kashir account. Your device stores your recovery phrase and wallet records. When you use a mint or the optional ad rewards feature, Kashir sends the information those services need to complete your request.</p>
         </div>
 
-        <h2>Scope</h2>
-        <p>This Privacy Policy applies to the Entropy Studio mobile application (the "App", "we", "us", or "our"). Entropy Studio is a local tool for working with entropy, BIP39 recovery phrases and passphrases, private-key material, and Bitcoin wallet derivation data.</p>
+        <h2>Wallet data on your device</h2>
+        <p>Kashir stores your recovery phrase in your device’s secure credential storage. The wallet database on your device stores Cashu proofs, transaction records, and payment quotes. Kashir also saves your mint preferences and keeps records of reward redemptions so it can retry an interrupted payment.</p>
+        <p>Kashir does not send your recovery phrase to a mint, the ad site, or a Kashir server.</p>
 
-        <h2>Information Processed on Your Device</h2>
-        <p>Depending on the feature you use, the App may process dice rolls, card draws, number-base input, BIP39 recovery phrases and passphrases, private-key input, and derived wallet information such as extended keys, descriptors, and addresses. This information can be highly sensitive.</p>
-        <p>These calculations are performed locally on your device. The App does not send the information you enter or derive to us or to third-party services.</p>
+        <h2>Cashu mints and payments</h2>
+        <p>Kashir connects to the mints you configure, including mints associated with Cashu tokens you receive. A mint may receive Lightning invoices, amounts, payment quotes, and Cashu protocol data, including proofs submitted when you spend or exchange them. Mints can see network information such as your IP address and handle that information under their own privacy practices.</p>
 
-        <h2>Information We Do Not Collect</h2>
-        <p>Entropy Studio does not collect personal information or sensitive wallet material. In particular, we do not collect:</p>
-        <ul>
-            <li>Names, email addresses, phone numbers, or account credentials</li>
-            <li>Recovery phrases, passphrases, private keys, wallet descriptors, or derived wallet data</li>
-            <li>Device identifiers, advertising identifiers, or location data</li>
-            <li>Usage, diagnostic, or crash-reporting data</li>
-            <li>Analytics, advertising, or tracking data</li>
-        </ul>
+        <h2>Watch Ads</h2>
+        <p>Watch Ads opens a third-party rewards site. When you claim a reward, Kashir uses the LNURL withdrawal link to request payment. Kashir sends the withdrawal identifier and a Lightning invoice to the rewards service, then redeems the payment through your active mint.</p>
+        <p>The rewards site and its ad providers may use cookies or similar technologies and receive information such as your IP address, browser details, and ad interactions. Their own privacy practices apply. You can avoid this feature by leaving Watch Ads unused.</p>
 
-        <h2>Storage and Retention</h2>
+        <h2>Analytics and tracking</h2>
+        <p>Kashir does not include its own analytics or cross-site tracking tools. Third-party mints and the rewards site handle the information they receive according to their own privacy practices.</p>
 
-        <h3>Local, In-Memory Processing</h3>
-        <p>The App holds current inputs and results in app memory while you use it. The App does not intentionally save this information to persistent application storage, synchronize it between devices, or back it up to a service we operate.</p>
+        <h2>Camera and clipboard</h2>
+        <p>Kashir uses the camera when you open its QR scanner to read payment data. Scanning takes place on your device. You can revoke camera access in your device settings. When you choose to copy wallet information, Kashir places it on your device’s clipboard.</p>
 
-        <h3>No Accounts or Cloud Service</h3>
-        <p>Entropy Studio does not offer user accounts, registration, login, cloud synchronization, or developer-operated storage for your information. Because we do not receive your information, we cannot recover it for you.</p>
+        <h2>Retention and deletion</h2>
+        <p>Kashir keeps wallet data locally until you remove it. In Kashir’s settings, removing the stored recovery phrase resets local wallet data, mint settings, and redemption history. Back up your recovery phrase and withdraw any funds you need before resetting the wallet. Mints and the rewards site manage their own records, and records retained by those services may remain subject to their policies.</p>
 
-        <h2>Data Sharing and Tracking</h2>
-        <p>We do not sell, rent, trade, or share personal information or wallet material. The App does not include third-party analytics, advertising, tracking, or crash-reporting services.</p>
+        <h2>Support and policy updates</h2>
+        <p>If you email us, we use the information you provide to respond to your request. For privacy questions, contact <a href="mailto:support@kashir.xyz">support@kashir.xyz</a>. Never send your recovery phrase or unspent Cashu tokens to support.</p>
+        <p>We will post policy changes here and update the date at the top.</p>
 
-        <h2>Security</h2>
-        <p>Recovery phrases, passphrases, and private keys can grant access to digital assets. Keep them private, use the App in a secure environment, and do not share them with anyone you do not trust. Local processing reduces data transmission, but it cannot protect information if your device or its display is compromised.</p>
-
-        <h2>Children's Privacy</h2>
-        <p>The App does not collect personal information from any user, including children under 13.</p>
-
-        <h2>Changes to This Privacy Policy</h2>
-        <p>We may update this Privacy Policy when the App or our privacy practices change. We will post the updated policy here and revise the "Last updated" date above.</p>
-
-        <div class="nav">
-            <a href="/">← Back to Home</a>
+        <nav class="nav" aria-label="Related pages">
+            <a href="/">Back to Home</a>
             <a href="/support/">Support</a>
-        </div>
-    </div>
+        </nav>
+    </main>
 </body>
 </html>
